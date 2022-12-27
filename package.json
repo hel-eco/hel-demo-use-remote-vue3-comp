@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "hel-micro": "^3.10.4",
+    "hel-tpl-remote-vue3-comps-ts": "^0.1.0",
+    "vue": "3.2.33"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

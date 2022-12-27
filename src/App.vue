@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <MasterHelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import MasterHelloWorld from './components/MasterHelloWorld.vue'
+
+console.log('see MasterHelloWorld', MasterHelloWorld)
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    MasterHelloWorld
   }
 })
 </script>
